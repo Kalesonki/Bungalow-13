@@ -20,9 +20,10 @@
 	inhand_icon_state = "r_suit"
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 30, ACID = 30, WOUND = 10)
 	strip_delay = 50
-	alt_covers_chest = TRUE
 	sensor_mode = SENSOR_COORDS
 	random_sensor = FALSE
+	can_adjust = FALSE
+
 
 /obj/item/clothing/under/rank/security/officer/grey
 	name = "grey security jumpsuit"
@@ -68,7 +69,6 @@
 	inhand_icon_state = "r_suit"
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 30, ACID = 30, WOUND = 10)
 	strip_delay = 50
-	alt_covers_chest = TRUE
 	sensor_mode = 3
 	random_sensor = FALSE
 
@@ -107,6 +107,7 @@
 	alt_covers_chest = TRUE
 	sensor_mode = 3
 	random_sensor = FALSE
+	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/detective/skirt
 	name = "detective's suitskirt"
@@ -116,6 +117,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS
 	dying_key = DYE_REGISTRY_JUMPSKIRT
 	fitted = FEMALE_UNIFORM_TOP
+	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/detective/grey
 	name = "noir suit"
@@ -132,6 +134,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS
 	dying_key = DYE_REGISTRY_JUMPSKIRT
 	fitted = FEMALE_UNIFORM_TOP
+	alt_covers_chest = TRUE
 
 /*
  * Head of Security
@@ -143,7 +146,6 @@
 	inhand_icon_state = "r_suit"
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 50, ACID = 50, WOUND = 10)
 	strip_delay = 60
-	alt_covers_chest = TRUE
 	sensor_mode = 3
 	random_sensor = FALSE
 
@@ -167,6 +169,7 @@
 	desc = "A stylish alternative to the normal head of security jumpsuit, complete with tactical pants."
 	icon_state = "hosalt"
 	inhand_icon_state = "bl_suit"
+	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/head_of_security/alt/skirt
 	name = "head of security's turtleneck skirt"
@@ -176,6 +179,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS
 	dying_key = DYE_REGISTRY_JUMPSKIRT
 	fitted = FEMALE_UNIFORM_TOP
+	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/head_of_security/parade
 	name = "head of security's parade uniform"

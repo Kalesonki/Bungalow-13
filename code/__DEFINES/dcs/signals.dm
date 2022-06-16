@@ -84,6 +84,18 @@
 	#define EXAMINE_POSITION_BEFORE (1<<1)
 	//End positions
 	#define COMPONENT_EXNAME_CHANGED (1<<0)
+///from base of [/atom/proc/update_appearance]: (updates)
+#define COMSIG_ATOM_UPDATE_APPEARANCE "atom_update_appearance"
+	/// If returned from [COMSIG_ATOM_UPDATE_APPEARANCE] it prevents the atom from updating its name.
+	#define COMSIG_ATOM_NO_UPDATE_NAME UPDATE_NAME
+	/// If returned from [COMSIG_ATOM_UPDATE_APPEARANCE] it prevents the atom from updating its desc.
+	#define COMSIG_ATOM_NO_UPDATE_DESC UPDATE_DESC
+	/// If returned from [COMSIG_ATOM_UPDATE_APPEARANCE] it prevents the atom from updating its icon.
+	#define COMSIG_ATOM_NO_UPDATE_ICON UPDATE_ICON
+///from base of [/atom/proc/update_name]: (updates)
+#define COMSIG_ATOM_UPDATE_NAME "atom_update_name"
+///from base of [/atom/proc/update_desc]: (updates)
+#define COMSIG_ATOM_UPDATE_DESC "atom_update_desc"
 ///from base of atom/update_icon(): ()
 #define COMSIG_ATOM_UPDATE_ICON "atom_update_icon"
 	#define COMSIG_ATOM_NO_UPDATE_ICON_STATE	(1<<0)
@@ -1056,3 +1068,27 @@
 #define COMSIG_AQUARIUM_BEFORE_INSERT_CHECK "aquarium_about_to_be_inserted"
 #define COMSIG_AQUARIUM_SURFACE_CHANGED "aquarium_surface_changed"
 #define COMSIG_AQUARIUM_FLUID_CHANGED "aquarium_fluid_changed"
+
+/// Exoprobe adventure finished: (result) result is ADVENTURE_RESULT_??? values
+#define COMSIG_ADVENTURE_FINISHED "adventure_done"
+
+/// Sent on initial adventure qualities generation from /datum/adventure/proc/initialize_qualities(): (list/quality_list)
+#define COMSIG_ADVENTURE_QUALITY_INIT "adventure_quality_init"
+
+/// Sent on adventure node delay start: (delay_time, delay_message)
+#define COMSIG_ADVENTURE_DELAY_START "adventure_delay_start"
+/// Sent on adventure delay finish: ()
+#define COMSIG_ADVENTURE_DELAY_END "adventure_delay_end"
+
+/// Exoprobe status changed : ()
+#define COMSIG_EXODRONE_STATUS_CHANGED "exodrone_status_changed"
+
+// Scanner controller signals
+/// Sent on begingging of new scan : (datum/exoscan/new_scan)
+#define COMSIG_EXOSCAN_STARTED "exoscan_started"
+/// Sent on successful finish of exoscan: (datum/exoscan/finished_scan)
+#define COMSIG_EXOSCAN_FINISHED "exoscan_finished"
+
+// Exosca signals
+/// Sent on exoscan failure/manual interruption: ()
+#define COMSIG_EXOSCAN_INTERRUPTED "exoscan_interrupted"

@@ -11,6 +11,22 @@
 	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
 	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
 	icon_state = "ranger_cloak"
+	resistance_flags = FIRE_PROOF
+
+/obj/item/clothing/neck/cloak/ranger/kepler
+	name = "kepler operative ranger cloak"
+	desc = "The old dusty cloak of volcanic ranger. Smells of volcanic ashes."
+	icon_state = "ranger_keplergroup"
+
+/obj/item/clothing/neck/cloak/ranger/snow
+	name = "kepler ranger cloak"
+	desc = "The old aged cloak of a snow ranger. Smells of plasma."
+	icon_state = "ranger_snowcloak"
+
+/obj/item/clothing/neck/cloak/ranger/snow/akira
+	name = "kitsune cloak"
+	desc = "The old aged cloak of a now extinct fox snow ranger. Smells of cinnamon and sake."
+	icon_state = "ranger_snowcloakakira"
 
 /obj/item/clothing/neck/cloak/samurai
 	name = "samurai cloak"
@@ -18,6 +34,20 @@
 	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
 	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
 	icon_state = "samurai"
+
+/obj/item/clothing/neck/cloak/gurren
+	name = "humanity cloak"
+	desc = "A cloak used by humans across the galaxy."
+	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
+	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
+	icon_state = "gurren"
+
+/obj/item/clothing/neck/cloak/simone
+	name = "spiral cloak"
+	desc = "A blue cloak used by humans across the galaxy."
+	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
+	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
+	icon_state = "simon"
 
 /obj/item/clothing/neck/cloak/admiral
 	name = "admiral cloak"
@@ -39,6 +69,20 @@
 	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
 	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
 	icon_state = "centcloak"
+
+/obj/item/clothing/neck/cloak/provost
+	name = "Provost's cloak"
+	desc = "A cloak used by NT provosts."
+	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
+	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
+	icon_state = "provostcloak"
+
+/obj/item/clothing/neck/cloak/vadm
+	name = "Vice Admiral's cloak"
+	desc = "A cloak used by the ceremonial NT Vice Admirals."
+	icon = 'ModularBungalow/clothing/icons/cloak.dmi'
+	worn_icon = 'ModularBungalow/clothing/worn/cloakw.dmi'
+	icon_state = "viceadmiralcloak"
 
 /obj/item/clothing/neck/cloak/xan
 	name = "Fleet Admiral Caelumbyrn Crux's Cloak"

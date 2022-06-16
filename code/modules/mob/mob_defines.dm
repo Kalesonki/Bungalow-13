@@ -146,7 +146,7 @@
 	var/research_scanner = FALSE
 
 	/// Is the mob throw intent on
-	var/in_throw_mode = FALSE
+	var/throw_mode = THROW_MODE_DISABLED
 
 	/// What job does this mob have
 	var/job = null//Living
@@ -231,3 +231,8 @@
 
 	/// Whether the typing indicator is on. Not on /living level because of verbs
 	var/typing_indicator = FALSE
+
+	///Whether the mob is pixel shifted or not
+	var/is_shifted
+	///If we are in the shifting setting.
+	var/shifting

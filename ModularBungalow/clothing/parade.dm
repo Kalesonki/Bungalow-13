@@ -72,6 +72,19 @@
 //*****************************************************
 //*****************************************************
 
+/obj/item/clothing/suit/security/officer/tan
+	name = "security officer's tan jacket"
+	desc = "This tan jacket is for those special occasions when a security officer wants the NT certified DRIP."
+	icon_state = "officertanjacket"
+	
+/obj/item/clothing/suit/security/officer/hos/tan
+	name = "head of security's tan jacket"
+	icon_state = "hostanjacket"
+	
+/obj/item/clothing/suit/security/officer/warden/tan
+	name = "warden's tan jacket"
+	icon_state = "wardentanjacket"
+	
 /obj/item/clothing/suit/armor/captain
 	name = "debug captain's armor"
 	icon = 'ModularBungalow/clothing/icons/parade.dmi'
@@ -97,11 +110,17 @@
 	desc = "The coat of the station's commander. Lovely, personable and everpresent."
 	icon_state = "cdr_jacket"
 
-// Casio Armor
-/obj/item/clothing/suit/armor/captain/casio
-	name = "NT Captain's carapace"
+// Naval Armor
+/obj/item/clothing/suit/armor/captain/naval
+	name = "Naval Captain's carapace"
 	desc = "The classic captain's carapace, in naval green."
 	icon_state = "casio"
+
+// Provost Carapace
+/obj/item/clothing/suit/armor/captain/provost
+	name = "Provost's carapace"
+	desc = "The stylish Provost's carapace, in ceremonial red."
+	icon_state = "provost_carapace"
 
 //CO's Jacket
 /obj/item/clothing/suit/armor/captain/co
@@ -168,4 +187,3 @@
 	name = "The Fleet Admiral Caelumbyrn Crux's parade jacket"
 	desc = "FO-4. Fleet Admiral Caelumbyrn Crux's robe. Fear them."
 	icon_state = "xoffduty"
-

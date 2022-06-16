@@ -122,15 +122,6 @@
 	},
 /turf/open/floor/bluespace,
 /area/centcom/testchamber)
-"ay" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/vehicle/sealed/mecha/combat/marauder/seraph{
-	dir = 8
-	},
-/turf/open/floor/carpet/royalblack,
-/area/centcom)
 "aA" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -1283,7 +1274,7 @@
 	dir = 8
 	},
 /obj/machinery/light/floor,
-/obj/vehicle/sealed/mecha/combat/marauder/seraph{
+/obj/structure/showcase/mecha/marauder{
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblack,
@@ -2868,7 +2859,7 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/supply)
 "iG" = (
-/obj/item/clothing/suit/space/hardsuit/swat/captain/casio/doom,
+/obj/item/clothing/suit/space/hardsuit/swat/captain/naval/doom,
 /obj/item/gun/energy/pulse,
 /obj/effect/landmark/portal_exit{
 	id = 101
@@ -9652,14 +9643,7 @@
 /turf/open/floor/carpet,
 /area/wizard_station)
 "we" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/centcom{
-	name = "Auxilliary Offices";
-	req_access_txt = "102"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
+/obj/machinery/door/poddoor/shutters/indestructible,
 /turf/open/floor/plasteel,
 /area/centcom/testchamber)
 "wf" = (
@@ -9746,7 +9730,7 @@
 /obj/structure/chair/comfy/black{
 	name = "The Grand Admiral's chair"
 	},
-/turf/open/floor/mineral/diamond,
+/turf/open/floor/carpet/royalblack,
 /area/centcom)
 "wr" = (
 /obj/structure/chair{
@@ -14733,7 +14717,7 @@
 /area/tdome/tdomeobserve)
 "GR" = (
 /obj/structure/table/wood,
-/obj/item/storage/box/beanbag,
+/obj/item/ammo_box/shotgun/beanbag,
 /obj/item/gun/ballistic/shotgun/doublebarrel,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -17396,7 +17380,7 @@
 	pixel_y = 5
 	},
 /obj/item/stamp/denied,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/carpet/royalblack,
 /area/centcom)
 "MD" = (
 /obj/effect/light_emitter{
@@ -18397,7 +18381,7 @@
 	dir = 4
 	},
 /obj/machinery/light/floor,
-/obj/vehicle/sealed/mecha/combat/marauder/seraph{
+/obj/structure/showcase/mecha/marauder{
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
@@ -20568,15 +20552,15 @@
 /area/centcom/testchamber)
 "Wl" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
-/obj/item/storage/box/lethalshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/ammo_box/shotgun/buckshot,
 /turf/open/floor/light,
 /area/centcom)
 "Wm" = (
@@ -28353,8 +28337,8 @@ aa
 Rq
 ri
 eS
+eS
 NH
-fd
 fd
 fd
 fd
@@ -28612,7 +28596,7 @@ Mn
 eS
 wq
 MB
-fd
+NH
 fd
 fd
 RR
@@ -28867,8 +28851,8 @@ aa
 Rq
 ve
 eS
+eS
 NH
-fd
 fd
 fd
 fd
@@ -29138,7 +29122,7 @@ em
 cA
 em
 cA
-ay
+em
 cA
 em
 cA

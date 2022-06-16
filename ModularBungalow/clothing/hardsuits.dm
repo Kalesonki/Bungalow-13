@@ -1,8 +1,13 @@
-//Casio captain's hardsuit
-/obj/machinery/suit_storage_unit/captain/casio
-	suit_type = /obj/item/clothing/suit/space/hardsuit/swat/captain/casio
+//Naval captain's hardsuit
+/obj/machinery/suit_storage_unit/captain/naval
+	suit_type = /obj/item/clothing/suit/space/hardsuit/swat/captain/naval
 	mask_type = /obj/item/clothing/mask/gas/atmos
 	storage_type = /obj/item/tank/jetpack/oxygen/captain
+
+//ERT Cadet
+/obj/machinery/suit_storage_unit/ert/cadet
+	name = "cadet"
+	suit_type = /obj/item/clothing/suit/space/hardsuit/ert/bni
 
 //Pubby Hardsuits
 /obj/machinery/suit_storage_unit/engine/pubby
@@ -35,31 +40,36 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/voidtech
 	slowdown = 0.25
 
-//Casio Captain Hardsuit//
-/obj/item/clothing/head/helmet/space/hardsuit/swat/captain/casio
-	name = "\proper NT Captain's Hardsuit Helmet"
+//Naval Captain Hardsuit//
+/obj/item/clothing/head/helmet/space/hardsuit/swat/captain/naval
+	name = "\proper Naval Captain's Hardsuit Helmet"
 	desc = "A hard, green armor shell used but NT captain. Space suitable, does not have the helmet however. Slightly unwieldy."
 	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
 	icon = 'ModularBungalow/clothing/icons/helmet.dmi'
 	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	icon_state = "hardsuit-capspace"
 
-/obj/item/clothing/suit/space/hardsuit/swat/captain/casio
-	name = "\proper NT Captain's Armored Hardsuit"
-	desc = "A hard, green armor shell used but NT captain. Space suitable. Slightly unwieldy."
+/obj/item/clothing/suit/space/hardsuit/swat/captain/naval
+	name = "\proper Naval Captain's Armored Hardsuit"
+	desc = "A hard, green armor shell used by naval captains. Space suitable. Slightly unwieldy."
 	worn_icon = 'ModularBungalow/clothing/worn/coatw.dmi'
 	icon = 'ModularBungalow/clothing/icons/coat.dmi'
 	icon_state = "hardsuit-capspace"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/swat/captain/casio
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/swat/captain/naval
 
 //Just for fun, Doom marine suit
-/obj/item/clothing/suit/space/hardsuit/swat/captain/casio/doom
+/obj/item/clothing/suit/space/hardsuit/swat/captain/naval/doom
 	name = "\improper Doom Marine Hardsuit"
 	desc = "Rip and tear, until it is done."
 	slowdown = -0.5
 
+
+//ERT hardsuit
 /obj/item/clothing/suit/space/hardsuit/mining/compact
 	name = "compact mining hardsuit"
+	worn_icon = 'ModularBungalow/clothing/worn/coatw.dmi'
+	icon = 'ModularBungalow/clothing/icons/coat.dmi'
+	icon_state = "hardsuit-miningclassic"
 	desc = "A special suit that protects against hazardous, low pressure environments. Although similar to normal mining harsduit, this one seems to be a bit weaker."
 	w_class = WEIGHT_CLASS_NORMAL
 	armor = list(MELEE = 25, BULLET = 5, LASER = 10, ENERGY = 15, BOMB = 50, BIO = 100, RAD = 40, FIRE = 30, ACID = 75, WOUND = 5)
@@ -67,8 +77,13 @@
 
 /obj/item/clothing/head/helmet/space/hardsuit/mining/compact
 	name = "compact mining hardsuit helmet"
+	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
+	icon = 'ModularBungalow/clothing/icons/helmet.dmi'
+	icon_state = "hardsuit0-mineclassic"
 	armor = list(MELEE = 25, BULLET = 5, LASER = 10, ENERGY = 15, BOMB = 50, BIO = 100, RAD = 40, FIRE = 30, ACID = 75, WOUND = 5)
 
+
+//BNI hardsuit
 /obj/item/clothing/suit/space/hardsuit/ert/bni
 	name = "BNI Agent Hardsuiit"
 	desc = "A hardsuit designed for BNI Agents looking for a more covert suit, designed with mobility yet protection in mind."
@@ -92,3 +107,19 @@
 	light_range = 7
 	resistance_flags = FIRE_PROOF
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+
+
+//Old Atmos hardsuit
+/obj/item/clothing/head/helmet/space/hardsuit/engine/atmos/old
+	icon_state = "hardsuit0-atmospherics"
+	icon = 'ModularBungalow/clothing/icons/helmet.dmi'
+	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
+
+/obj/item/clothing/suit/space/hardsuit/engine/atmos/old
+	name = "atmospherics hardsuit"
+	desc = "A special suit that protects against hazardous, low pressure environments. Has thermal shielding."
+	worn_icon = 'ModularBungalow/clothing/worn/coatw.dmi'
+	icon = 'ModularBungalow/clothing/icons/coat.dmi'
+	icon_state = "hardsuit-atmospherics"
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/atmos/old
+

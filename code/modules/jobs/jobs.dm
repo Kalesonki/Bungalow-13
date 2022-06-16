@@ -36,7 +36,7 @@ GLOBAL_LIST_INIT(science_positions, list(
 	"Scientist",
 	"Geneticist",
 	"Roboticist",
-	"Chemist"))
+	"Chemical Researcher"))
 
 
 GLOBAL_LIST_INIT(supply_positions, list(
@@ -58,6 +58,7 @@ GLOBAL_LIST_INIT(service_positions, list(
 	"Clown",
 	"Mime",
 	"Prisoner",
+	"Vagabond",
 	"Assistant"))
 
 
@@ -67,6 +68,7 @@ GLOBAL_LIST_INIT(security_positions, list(
 	"Warden",
 	"Detective",
 	"Deputy", // Tegustation Deupty edit: Adds them as a Security job
+	"Brig Physician",
 	"Security Officer"))
 
 
@@ -100,11 +102,11 @@ GLOBAL_LIST_INIT(operations_positions, list(
 	"Survivor",
 
 	//Romulus
-	"Syndicate Outpost Leader",
-	"Syndicate Outpost Agent",
-	"Syndicate Outpost Medic",
-	"Syndicate Outpost Scientist",
-	"Syndicate Outpost Explorer"))
+	"Outpost Leader",
+	"Syndicate Agent",
+	"Syndicate Medic",
+	"Syndicate Scientist",
+	"Syndicate Explorer"))
 
 GLOBAL_LIST_INIT(logistics_positions, list(
 	"Logistics Officer",
@@ -140,21 +142,22 @@ GLOBAL_LIST_INIT(ntmarines_positions, list(
 	"NT Marine",
 
 //Romulus
-	"NT Remnant Lieutenant",
+	"NT Remnant Commander",
+	"NT Remnant Corporal",
 	"NT Remnant Cadet",
 	"NT Remnant Auxiliary"))
 
 //Other Gamemodes
 GLOBAL_LIST_INIT(solgov_positions, list(
-	"Commander",
-	"Administrator",
+	"Site Commander",
+	"Site Administrator",
 	"Lab Technician",
 	"Medical Technician",
 	"Engineer",
 	"Bunker Crew",
 	"Soldier",
 	"Security",
-	"Civillian"))
+	"Nomad"))
 
 
 GLOBAL_LIST_INIT(position_categories, list(
